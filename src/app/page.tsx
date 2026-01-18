@@ -101,21 +101,6 @@ export default function Home() {
                 </Link>
               </Button>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
-              <Button asChild size="lg" variant="outline" className="text-lg px-8 border-2 border-amber-500 text-amber-600 hover:bg-amber-50 hover:text-amber-700">
-                <Link href="https://mp.leti.ltd/" target="_blank">
-                  <Crown className="mr-2 h-5 w-5" />
-                  NeuraPress Pro
-                  <ExternalLink className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8" asChild>
-                <Link href="https://github.com/tianyaxiang/neurapress" target="_blank">
-                  <Github className="mr-2 h-5 w-5" />
-                  查看源码
-                </Link>
-              </Button>
-            </div>
           </div>
         </div>
       </section>
@@ -208,13 +193,6 @@ export default function Home() {
                 小红书笔记编辑器
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="text-lg px-8 border-2 border-amber-500 text-amber-600 hover:bg-amber-50 hover:text-amber-700" >
-              <Link href="https://mp.leti.ltd/" target="_blank">
-                <Crown className="mr-2 h-5 w-5" />
-                NeuraPress Pro
-                <ExternalLink className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
           </div>
         </div>
       </section>
@@ -225,33 +203,8 @@ export default function Home() {
           <div className="flex flex-col items-center gap-6">
             <div className="flex items-center gap-2">
               <Logo className="w-8 h-8" />
-              <span className="text-xl font-bold">NeuraPress</span>
+              <span className="text-xl font-bold">To-Text.com</span>
             </div>
-            <div className="flex items-center gap-6">
-              <Link
-                href="https://github.com/tianyaxiang/neurapress"
-                target="_blank"
-                className="text-muted-foreground hover:text-foreground transition-colors"
-              >
-                <Github className="h-5 w-5" />
-              </Link>
-              <Link
-                href="https://x.com/tianyaxiang"
-                target="_blank"
-                className="text-muted-foreground hover:text-foreground transition-colors"
-              >
-                <Twitter className="h-5 w-5" />
-              </Link>
-              <Link
-                href="mailto:tianyaxiang@qq.com"
-                className="text-muted-foreground hover:text-foreground transition-colors"
-              >
-                <Mail className="h-5 w-5" />
-              </Link>
-            </div>
-            <p className="text-sm text-muted-foreground text-center">
-              © 2024 NeuraPress. All rights reserved. Built with ❤️ using Next.js
-            </p>
           </div>
         </div>
       </footer>

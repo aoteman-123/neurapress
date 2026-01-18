@@ -61,10 +61,10 @@ export default function AboutPage() {
               <Logo className="w-16 h-16 text-primary" />
             </div>
             <h1 className="text-4xl lg:text-5xl font-bold tracking-tight text-foreground mb-6">
-              关于 NeuraPress
+              关于 To-Text
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              NeuraPress 诞生于对高效内容创作的渴望。我们致力于为内容创作者提供最优质的 Markdown 编辑体验，
+              To-Text 诞生于对高效内容创作的渴望。我们致力于为内容创作者提供最优质的 Markdown 编辑体验，
               让创作变得更加简单、高效和愉悦。
             </p>
           </div>
@@ -88,7 +88,7 @@ export default function AboutPage() {
                 </h3>
                 <p className="text-muted-foreground mb-6 text-lg leading-relaxed">
                   在信息爆炸的时代，内容创作者需要的不仅仅是一个编辑器，而是一个能够理解他们需求、
-                  提升效率的创作伙伴。NeuraPress 正是为此而生。
+                  提升效率的创作伙伴。To-Text 正是为此而生。
                 </p>
                 <p className="text-muted-foreground mb-6 text-lg leading-relaxed">
                   我们深知每个平台都有其独特的排版需求，因此专门为微信公众号、小红书等平台优化了编辑体验，
@@ -98,12 +98,6 @@ export default function AboutPage() {
                   <Button asChild>
                     <Link href="/wechat">
                       立即体验
-                    </Link>
-                  </Button>
-                  <Button variant="outline" asChild>
-                    <Link href="https://github.com/tianyaxiang/neurapress" target="_blank">
-                      <Github className="mr-2 h-4 w-4" />
-                      查看源码
                     </Link>
                   </Button>
                 </div>
@@ -201,54 +195,7 @@ export default function AboutPage() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
-              联系我们
-            </h2>
-            <p className="text-lg text-muted-foreground mb-8">
-              有任何问题、建议或合作意向，欢迎随时联系我们
-            </p>
-            
-            <div className="flex justify-center gap-6 mb-8">
-              <Link 
-                href="https://github.com/tianyaxiang/neurapress" 
-                target="_blank"
-                className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
-              >
-                <Github className="h-6 w-6" />
-                <span>GitHub</span>
-                <ExternalLink className="h-4 w-4" />
-              </Link>
-              
-              <Link 
-                href="https://x.com/tianyaxiang" 
-                target="_blank"
-                className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
-              >
-                <Twitter className="h-6 w-6" />
-                <span>Twitter</span>
-                <ExternalLink className="h-4 w-4" />
-              </Link>
-              
-              <Link 
-                href="mailto:tianyaxiang@qq.com"
-                className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
-              >
-                <Mail className="h-6 w-6" />
-                <span>Email</span>
-              </Link>
-            </div>
-            
-            <Card className="border-0 shadow-md bg-primary/5">
-              <CardContent className="p-6">
-                <p className="text-foreground font-medium mb-2">
-                  开源项目，欢迎贡献
-                </p>
-                <p className="text-muted-foreground">
-                  NeuraPress 是一个开源项目，我们欢迎任何形式的贡献，包括代码、文档、设计建议等。
-                  让我们一起打造更好的内容创作工具！
-                </p>
-              </CardContent>
-            </Card>
+
           </div>
         </div>
       </section>

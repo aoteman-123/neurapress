@@ -22,7 +22,7 @@ const AdBanner = React.forwardRef<HTMLDivElement, AdBannerProps>(
   ({ 
     id = "default-ad",
     imageUrl = "/assets/img/neurapress-web-app.jpg", 
-    title = "NeuraPress - 让 Markdown 编辑更简单",
+    title = "To-Text - 让 Markdown 编辑更简单",
     description = "专业的 Markdown 编辑器，支持微信公众号、小红书等多平台格式导出",
     linkUrl = "#",
     className,
@@ -147,7 +147,6 @@ const AdBanner = React.forwardRef<HTMLDivElement, AdBannerProps>(
             
               {/* 底部标识 */}
               <div className="text-center text-xs text-gray-400 dark:text-gray-500 uppercase tracking-wide pt-2">
-                ADS VIA NEURAPRESS
               </div>
             </div>
           ) : (

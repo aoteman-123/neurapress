@@ -126,7 +126,7 @@ export function EditorToolbar({
             <div className="flex items-center gap-4">
               <Link href="/" className="text-xl font-bold text-primary hidden sm:flex items-center gap-2">
                 <Logo className="w-6 h-6" />
-                NeuraPress
+                To-TEXT
               </Link>
               <div className="hidden sm:block">
                 <ArticleList 
