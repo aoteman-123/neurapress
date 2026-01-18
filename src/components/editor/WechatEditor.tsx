@@ -270,7 +270,7 @@ export default function WechatEditor() {
       const exampleContent = getExampleContent()
       setValue(exampleContent)
       toast({
-        title: "欢迎使用 NeuraPress",
+        title: "欢迎使用 To-Text",
         description: "已加载示例内容，您可以开始编辑或查看效果",
         duration: 3000,
       })
